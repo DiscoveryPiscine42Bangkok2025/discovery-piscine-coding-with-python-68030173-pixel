@@ -1,3 +1,7 @@
-$> python3 play_with_arrays.py
-[2, 8, 9, 48, 8, 22, -12, 2]
-[10, 11, 50, 10, 24]
+arr = [2, 8, 9, 48, 8, 22, -12, 2]
+
+print(arr)
+
+result = [x + 2 for x in arr if x > 5]
+
+print(result) 
