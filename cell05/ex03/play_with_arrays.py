@@ -4,4 +4,4 @@ print(arr)
 
 result = [x + 2 for x in arr if x > 5]
 result2 = set(result)
-print(result)
+print(new_array)
