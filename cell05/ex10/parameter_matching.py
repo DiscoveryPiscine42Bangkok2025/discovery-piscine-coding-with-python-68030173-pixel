@@ -1,11 +1,11 @@
-import sys 
-if len(sys.argv) ==2:
-    parameter = sys.argv[1]
-    user_imput = imput("what was the parameter? ")
+import sys
 
-    if user_imput == parameter:
-        print("good job!")
-    else:
-        print("nope, sorry...")
-else:
+if len(sys.argv) != 2:
     print("none")
+else:
+    param = sys.argv[1]
+    word = input("What was the parameter? ")
+    if word == param:
+        print("Good job!")
+    else:    
+        print("Nope, sorry...")
